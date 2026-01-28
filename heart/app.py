@@ -510,6 +510,7 @@ class CardioCareAI:
 <marquee behavior="scroll" direction="left" scrollamount="6">
     📢 For Demo Please call us @ 8500172644 — Our team will get back to you soon!
 </marquee>
+<p>Note: ** Cardio Care AI is designed to assist doctors in analysis and clinical decision support and does not replace professional medical judgment. Final medical decisions remain with the Doctor. </p>
             <div class="header-badge">CLINICAL EDITION</div>
         </div>
         """, unsafe_allow_html=True)
@@ -613,6 +614,7 @@ class CardioCareAI:
 <marquee behavior="scroll" direction="left" scrollamount="6">
     📢 For Demo Please call us @ 8500172644 — Our team will get back to you soon!
 </marquee>
+<p>Note: ** Cardio Care AI is designed to assist doctors in analysis and clinical decision support and does not replace professional medical judgment. Final medical decisions remain with the Doctor. </p>
             <div class="header-badge">AI-Powered Clinical Intelligence</div>
         </div>
         """, unsafe_allow_html=True)
