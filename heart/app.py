@@ -507,6 +507,9 @@ class CardioCareAI:
             <h1><span class="heart-pulse">❤️</span>CARDIO CARE AI</h1>
             <h4>Advanced Cardiovascular Risk Prediction & Management System</h4>
             <h2>Designed & Developed By svrcomputers</h2>
+<marquee behavior="scroll" direction="left" scrollamount="6">
+    📢 For Demo Please call us @ 8500172644 — Our team will get back to you soon!
+</marquee>
             <div class="header-badge">CLINICAL EDITION</div>
         </div>
         """, unsafe_allow_html=True)
