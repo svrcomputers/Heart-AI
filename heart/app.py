@@ -504,7 +504,7 @@ class CardioCareAI:
         # Professional header for login page
         st.markdown("""
         <div class="professional-header">
-            <h1><span class="heart-pulse">❤️</span> CARDIOCARE AI</h1>
+            <h1><span class="heart-pulse">❤️</span>CARDIO CARE AI</h1>
             <h2>Advanced Cardiovascular Risk Prediction & Management System</h2>
             <div class="header-badge">CLINICAL EDITION</div>
         </div>
@@ -603,7 +603,7 @@ class CardioCareAI:
         """Display professional header"""
         st.markdown("""
         <div class="professional-header">
-            <h1><span class="heart-pulse">❤️</span> CARDIO  CARE  AI</h1>
+            <h2><span class="heart-pulse">❤️</span>CARDIO  CARE  AI</h1>
             <h2>Advanced Cardiovascular Risk Prediction & Management System</h2>
             <div class="header-badge">AI-Powered Clinical Intelligence</div>
         </div>
