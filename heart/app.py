@@ -302,7 +302,7 @@ class CardioCareAI:
         """Authenticate user login"""
         # Doctor credentials (in production, use database)
         doctors = {
-            'dr_smith': {'password': self.hash_password('heart123'), 'role': 'doctor', 'name': 'Dr. Smith'},
+            'svr': {'password': self.hash_password('heart123'), 'role': 'doctor', 'name': 'Dr. Smith'},
             'dr_jones': {'password': self.hash_password('cardio456'), 'role': 'doctor', 'name': 'Dr. Jones'},
             'admin': {'password': self.hash_password('admin123'), 'role': 'admin', 'name': 'Admin'}
         }
@@ -533,7 +533,7 @@ class CardioCareAI:
                 col_a, col_b = st.columns(2)
                 with col_a:
                     st.write("👨‍⚕️ **Doctor**")
-                    st.write("Username: dr_smith")
+                    st.write("Username: svr")
                     st.write("Password: heart123")
                 with col_b:
                     st.write("👩‍💼 **Admin**")
