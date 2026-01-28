@@ -302,8 +302,8 @@ class CardioCareAI:
         """Authenticate user login"""
         # Doctor credentials (in production, use database)
         doctors = {
-            'svr': {'password': self.hash_password('heart123'), 'role': 'doctor', 'name': 'Dr. Smith'},
-            'dr_jones': {'password': self.hash_password('cardio456'), 'role': 'doctor', 'name': 'Dr. Jones'},
+            'svr': {'password': self.hash_password('heart123'), 'role': 'doctor', 'name': 'Dr. SVR'},
+            'dr_Sravan': {'password': self.hash_password('cardio456'), 'role': 'doctor', 'name': 'Dr. Sravan'},
             'admin': {'password': self.hash_password('admin123'), 'role': 'admin', 'name': 'Admin'}
         }
         
@@ -603,7 +603,7 @@ class CardioCareAI:
         """Display professional header"""
         st.markdown("""
         <div class="professional-header">
-            <h1><span class="heart-pulse">❤️</span> CARDIOCARE AI</h1>
+            <h1><span class="heart-pulse">❤️</span> CARDIO  CARE  AI</h1>
             <h2>Advanced Cardiovascular Risk Prediction & Management System</h2>
             <div class="header-badge">AI-Powered Clinical Intelligence</div>
         </div>
