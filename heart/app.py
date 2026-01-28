@@ -505,7 +505,8 @@ class CardioCareAI:
         st.markdown("""
         <div class="professional-header">
             <h1><span class="heart-pulse">❤️</span>CARDIO CARE AI</h1>
-            <h2>Advanced Cardiovascular Risk Prediction & Management System</h2>
+            <h4>Advanced Cardiovascular Risk Prediction & Management System</h4>
+            <h2>Designed & Developed By svrcomputers</h2>
             <div class="header-badge">CLINICAL EDITION</div>
         </div>
         """, unsafe_allow_html=True)
