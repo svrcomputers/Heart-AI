@@ -608,7 +608,11 @@ class CardioCareAI:
         st.markdown("""
         <div class="professional-header">
             <h2><span class="heart-pulse">❤️</span>CARDIO  CARE  AI</h1>
-            <h2>Advanced Cardiovascular Risk Prediction & Management System</h2>
+            <h4>Advanced Cardiovascular Risk Prediction & Management System</h4>
+<h2>Designed & Developed By svrcomputers</h2>
+<marquee behavior="scroll" direction="left" scrollamount="6">
+    📢 For Demo Please call us @ 8500172644 — Our team will get back to you soon!
+</marquee>
             <div class="header-badge">AI-Powered Clinical Intelligence</div>
         </div>
         """, unsafe_allow_html=True)
@@ -806,7 +810,7 @@ class CardioCareAI:
                 
             with col2:
                 st.markdown("#### Vital Signs")
-                systolic_bp = st.slider("Systolic BP (mmHg)", 80, 200, 125)
+                systolic_bp = st.slider("Systolic BP (mmHg)", 80, 400, 125)
                 diastolic_bp = st.slider("Diastolic BP (mmHg)", 50, 130, 80)
                 heart_rate = st.slider("Heart Rate (bpm)", 40, 150, 72)
                 bmi = st.slider("BMI", 15.0, 50.0, 25.0)
